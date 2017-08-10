@@ -68,8 +68,9 @@ for (var j = I; j--;) vector.copy().x-=10
 console.timeEnd("vec2");
 ```
 
-Across the board:
+Across the board, shrekt:
 
+```
 Victor: 100ms
 vec2: 60ms
 Victor: 61ms
@@ -90,3 +91,4 @@ Victor: 164ms
 vec2: 51ms
 Victor: 140ms
 vec2: 53ms
+```
