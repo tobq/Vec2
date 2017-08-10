@@ -1,7 +1,7 @@
 # vec2
 Performance oriented vectors. No gimmicks. 
 
-![very wow](https://i.gyazo.com/fe066eda2b8e4bd0ff7397455495c29f.gif)
+![very wow](http://i.imgur.com/cZ27lu9.gif)
 
 ```
 var I=10000000, vector = new vec2, victor = new Victor;
