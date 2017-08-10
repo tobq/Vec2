@@ -86,7 +86,7 @@ vec2.prototype.random = function () {
 };
 
 vec2.prototype.bound = function (component, min, max) {
-	if (this[component] < min) this[component] = Math.min(min, max - this[component]);
-	else if (this[component] > max) this[component] = Math.max(max, 2 * min - this[component]);
+	if (this[component] < min) this[component] = Math.min(max, -this[component]);
+	else if (this[component] > max) this[component] = Math.max(min, 2 * max - this[component]);
 	else return true;
 };
