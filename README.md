@@ -21,4 +21,4 @@ vec2: add. 4.878x faster
 vec2: copy. 2.438x faster
 vec2: new. 2.583x faster
 
-``
+```
