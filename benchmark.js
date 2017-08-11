@@ -22,3 +22,5 @@ for (var test = tests.length; test--;) {
     for (var i = I; i--;) tests[test][2]();
     console.log("vec2:", tests[test][0] + ".", (time/(performance.now() - start)).toFixed(3) + "x faster");
 }
+
+// Both vectors retain their initial values.
