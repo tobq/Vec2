@@ -7,7 +7,7 @@ Feel free to make [feature requests](https://github.com/tobq/vec2/issues)
 
 ### Tests
 
-I tested vec2 against [Victor](https://github.com/maxkueng/victor), using [this]() benchmark.
+I tested vec2 against [Victor](https://github.com/maxkueng/victor), using [this](https://github.com/tobq/vec2/blob/master/benchmark.js) benchmark.
 
 ```
 vec2: component subtraction. 9.936x faster
