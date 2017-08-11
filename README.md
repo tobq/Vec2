@@ -64,7 +64,7 @@ console.time("Victor");
 for (var j = I; j--;) victor.clone().subtractX(10)
 console.timeEnd("Victor");
 console.time("vec2");
-for (var j = I; j--;) vector.copy().x-=10
+for (var j = I; j--;) vector.copy().subtract(new vec2(10,0))
 console.timeEnd("vec2");
 ```
 
@@ -90,5 +90,5 @@ vec2: 52ms
 Victor: 164ms
 vec2: 51ms
 Victor: 140ms
-vec2: 53ms
+vec2: 56ms
 ```
